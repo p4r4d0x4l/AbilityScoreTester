@@ -1,14 +1,15 @@
 # AbilityScoreTester
 
 
-Beskrivelse
+## Beskrivelse
 
 AbilityScoreTester er et enkelt konsollprogram i C# som beregner en ability score basert på brukerdefinerte parametere. 
-Programmet er inspirert av klassiske rollespill-mekanikker (f.eks. D&D) og demonstrerer grunnleggende konsepter innen input-håndtering, aritmetikk og objektorientert programmering.
+Programmet er inspirert av klassiske rollespill-mekanikker (f.eks. D&D) og demonstrerer grunnleggende 
+konsepter innen input-håndtering, aritmetikk og objektorientert programmering.
 
 ______________________________________________________________________
 
-Funksjonalitet
+## Funksjonalitet
 
 Programmet:
 •	Leser inn heltall og desimaltall fra bruker
@@ -23,7 +24,7 @@ Programmet:
 
 _______________________________________________________________________
 
-Beregningslogikk
+## Beregningslogikk
 
 Ability score beregnes slik:
 1.	RollResult divideres med DivideBy
@@ -31,12 +32,12 @@ Ability score beregnes slik:
 3.	AddAmount legges til
 4.	Hvis resultatet er lavere enn Minimum, brukes Minimum
 
-Formelt:
+### Formelt:
 Score = max( Minimum, AddAmount + (int)(RollResult / DivideBy) )
 
 _______________________________________________________________________
 
-Struktur
+## Struktur
 
 Programmet består av to klasser:
 
@@ -51,7 +52,7 @@ Programmet består av to klasser:
 
 _______________________________________________________________________
 
-Teknologi
+## Teknologi
 
 •	Språk: C#
 •	Plattform: .NET (konsollapplikasjon)
@@ -59,7 +60,7 @@ Teknologi
 
 ______________________________________________________________________
 
-Læringsmål
+## Læringsmål
 
 Programmet demonstrerer:
 •	Objektorientert design
@@ -70,11 +71,9 @@ Programmet demonstrerer:
 
 ______________________________________________________________________
 
-Kjøring
+## Kjøring
 
-Kompiler og kjør programmet som en vanlig C#-konsollapplikasjon. Følg instruksjonene i terminalen for å angi verdier eller bruke standardverdier.
+Kompiler og kjør programmet som en vanlig C#-konsollapplikasjon. 
 
-
-
-Kompiler og kjør programmet som en vanlig C#-konsollapplikasjon. Følg instruksjonene i terminalen for å angi verdier eller bruke standardverdier.
+Følg instruksjonene i terminalen for å angi verdier eller bruke standardverdier.
 

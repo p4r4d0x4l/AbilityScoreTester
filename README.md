@@ -42,14 +42,14 @@ _______________________________________________________________________
 
 Programmet består av to klasser:
 
-- ###	Program
-   -	Inneholder Main
-   -	Håndterer brukerinput og kontrollflyt
-   -	Inneholder hjelpefunksjoner for trygg parsing (ReadInt, ReadDouble)
+###	Program
+- Inneholder Main
+- Håndterer brukerinput og kontrollflyt
+- Inneholder hjelpefunksjoner for trygg parsing (ReadInt, ReadDouble)
 
--	### AbilityScoreCalculator
-   -	Inneholder felt for beregningsparametere
-   -  Utfører selve beregningen i CalculateAbilityScore()
+### AbilityScoreCalculator
+- Inneholder felt for beregningsparametere
+- Utfører selve beregningen i CalculateAbilityScore()
 
 _______________________________________________________________________
 
